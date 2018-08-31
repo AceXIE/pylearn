@@ -12,7 +12,7 @@ def count(txt):
     print(dict)
 
 if __name__ == '__main__':
-    path = '0005words.txt'
+    path = 'words.txt'
     with open(path,'r') as file:
         data = file.read()
         print(data)
