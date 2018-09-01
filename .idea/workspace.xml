@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fdfdf4-6636-4e76-8071-b20b0311b7eb" name="Default" comment="1.urllib使用。2.正则表达式">
-      <change afterPath="$PROJECT_DIR$/show-me-the-code/0010randomLetters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/show-me-the-code/t1.png" afterDir="false" />
+    <list default="true" id="07fdfdf4-6636-4e76-8071-b20b0311b7eb" name="Default" comment="1.生成验证码。2.随机的使用。3.画图的操作。">
+      <change afterPath="$PROJECT_DIR$/show-me-the-code/0011filterWords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show-me-the-code/filtered_words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path=".idea/vcs.xml" />
@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pylearn_git$0004genAndStoreMySql.coverage" NAME="0004genAndStoreMySql Coverage Results" MODIFIED="1535265474010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
     <SUITE FILE_PATH="coverage/pylearn_git$0002genActiveCode.coverage" NAME="0002genActiveCode Coverage Results" MODIFIED="1535178560899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
+    <SUITE FILE_PATH="coverage/pylearn_git$0011filterWords.coverage" NAME="0011filterWords Coverage Results" MODIFIED="1535795670851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
     <SUITE FILE_PATH="coverage/pylearn_git$0005resizePic.coverage" NAME="0005resizePic Coverage Results" MODIFIED="1535718383076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
     <SUITE FILE_PATH="coverage/pylearn_git$0006countWordsIndiary.coverage" NAME="0006countWordsIndiary Coverage Results" MODIFIED="1535788929720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
     <SUITE FILE_PATH="coverage/pylearn_git$0010randomLetters.coverage" NAME="0010randomLetters Coverage Results" MODIFIED="1535794499839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/show-me-the-code" />
@@ -57,29 +58,29 @@
           <entry key="jpg" value="2" />
           <entry key="png" value="8" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="17" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="22" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="10" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="17" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="1665" />
-          <entry key="txt" value="238" />
+          <entry key="py" value="1902" />
+          <entry key="txt" value="278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="243" />
-          <entry key="Python" value="1665" />
+          <entry key="PLAIN_TEXT" value="283" />
+          <entry key="Python" value="1902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -87,100 +88,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show-me-the-code/0000add_num.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show-me-the-code/0008reHtmlContent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#37#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show-me-the-code/0009reHtmlUrl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/show-me-the-code/0010randomLetters.py">
+        <entry file="file://$PROJECT_DIR$/show-me-the-code/0011filterWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/show-me-the-code/0007countLines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="41" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1535794499000" expanded="true" signature="196:918" ph="..." />
+                <marker date="1535790289000" expanded="true" signature="83:605" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show-me-the-code/t1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/conda/lib/python3.6/site-packages/PIL/ImageDraw.py">
+        <entry file="file://$PROJECT_DIR$/show-me-the-code/0004countWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1631748452/builtins.py">
+        <entry file="file://$PROJECT_DIR$/show-me-the-code/0006countWordsIndiary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="4879" column="8" selection-start-line="4879" selection-start-column="8" selection-end-line="4879" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/conda/lib/python3.6/site-packages/bs4/element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="1313" column="4" selection-start-line="1313" selection-start-column="4" selection-end-line="1313" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/conda/lib/python3.6/urllib/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="222" selection-start-line="222" selection-end-line="222" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/douban.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="24" />
               <folding>
-                <element signature="e#39#54#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1535788929000" expanded="true" signature="136:431" ph="..." />
               </folding>
             </state>
           </provider>
@@ -219,6 +164,8 @@
         <option value="$PROJECT_DIR$/show-me-the-code/0008reHtmlContent.py" />
         <option value="$PROJECT_DIR$/show-me-the-code/0009reHtmlUrl.py" />
         <option value="$PROJECT_DIR$/show-me-the-code/0010randomLetters.py" />
+        <option value="$PROJECT_DIR$/show-me-the-code/filtered_words.txt" />
+        <option value="$PROJECT_DIR$/show-me-the-code/0011filterWords.py" />
       </list>
     </option>
   </component>
@@ -286,29 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.0010randomLetters">
-    <configuration name="0006countWordsIndiary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pylearn-git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/show-me-the-code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show-me-the-code/0006countWordsIndiary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.0011filterWords">
     <configuration name="0007countLines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pylearn-git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -397,20 +322,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="0011filterWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pylearn-git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/show-me-the-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show-me-the-code/0011filterWords.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.0006countWordsIndiary" />
       <item itemvalue="Python.0007countLines" />
       <item itemvalue="Python.0008reHtmlContent" />
       <item itemvalue="Python.0009reHtmlUrl" />
       <item itemvalue="Python.0010randomLetters" />
+      <item itemvalue="Python.0011filterWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0011filterWords" />
         <item itemvalue="Python.0010randomLetters" />
         <item itemvalue="Python.0009reHtmlUrl" />
         <item itemvalue="Python.0008reHtmlContent" />
         <item itemvalue="Python.0007countLines" />
-        <item itemvalue="Python.0006countWordsIndiary" />
       </list>
     </recent_temporary>
   </component>
@@ -509,27 +456,35 @@
       <option name="project" value="LOCAL" />
       <updated>1535792395909</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.生成验证码。2.随机的使用。3.画图的操作。">
+      <created>1535794669389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535794669389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.28826895" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.2811159" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48712447" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49570817" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48640916" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49499285" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.490701" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.509299" side_tool="true" visible="true" weight="0.3819277" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.490701" visible="true" weight="0.3819277" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5135909" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.490701" weight="0.3819277" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49642345" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -585,7 +540,8 @@
     <MESSAGE value="1.读取文件。2.判断代码每一行3.进行统计操作" />
     <MESSAGE value="1.urllib的使用2.beautifulSoup获取网页的body" />
     <MESSAGE value="1.urllib使用。2.正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.urllib使用。2.正则表达式" />
+    <MESSAGE value="1.生成验证码。2.随机的使用。3.画图的操作。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.生成验证码。2.随机的使用。3.画图的操作。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,11 +550,6 @@
           <url>file://$PROJECT_DIR$/spider/biying.py</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/show-me-the-code/0006countWordsIndiary.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -809,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/show-me-the-code/0004countWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/show-me-the-code/diaries/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -830,17 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/show-me-the-code/0006countWordsIndiary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535788929000" expanded="true" signature="136:431" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/conda/lib/python3.6/encodings/ascii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -852,16 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/show-me-the-code/0007countLines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding>
-            <marker date="1535790289000" expanded="true" signature="83:605" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,12 +868,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/show-me-the-code/0010randomLetters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="300">
           <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <marker date="1535794499000" expanded="true" signature="196:918" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show-me-the-code/filtered_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show-me-the-code/0006countWordsIndiary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535788929000" expanded="true" signature="136:431" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show-me-the-code/0004countWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show-me-the-code/0007countLines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <marker date="1535790289000" expanded="true" signature="83:605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show-me-the-code/0011filterWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
