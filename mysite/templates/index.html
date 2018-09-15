@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script>
+    function appendText() {
+        $("middle").after("xx");
+        $("p").append(" <b>插入文本</b>.");
+        $("body").append(" <b>插入文本1</b>.");
+        $("div").prepend(" <b>插入文本2</b>.");
+    }
+</script>
+<h1 style="background-color: green;color: white">留言板</h1>
+<script src="/static/js/jquery-3.3.1.js"></script>
+<h1 style="background-color: white;color: black">请尽情留言：</h1>
+
+<form action="/index/" method="post">
+    名字：<input type="text" name="username" maxlength="40"/>
+    <br>
+    <textarea name="msg" maxlength="1000" rows="10" cols="80"></textarea>
+    <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+
+<h1 style="background-color: white;color: black">留言历史信息：</h1>
+
+<div id="top" class="box">
+    {% for datum in data %}
+        <div id="middle" class="box">
+            {% if datum.time != null %}
+                   在 {{ datum.time|date:"Y-n-j H:i:s" }} 的时候
+            {% endif %}
+            <span>{{ datum.username }} 写到</span>
+            <div>{{ datum.msg }}</div>
+        </div>
+    {% endfor %}
+</div>
+
+
+{#<button onclick="appendText()">追加文本</button>#}
+
+</body>
+</html>
